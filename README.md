@@ -8,7 +8,13 @@ Currently, the propgram consists of a GUI and some comand line outputs. The GUI 
 
 # Getting Started
 
-Clone the repository with `git clone https://github.com/Awesomepeeps/CHIM-Script`. The program consists of two main files, run_chimxpt.py and run_gui.py. Run `python3 run_gui.py` in the command line in order to get the program started
+Clone the repository, the program consists of two main files, run_chimxpt.py and run_gui.py.
+
+```git clone https://github.com/Awesomepeeps/CHIM-Script```
+
+Run in the command line to start the program
+
+```python3 run_gui.py```
 
 In order to access the CHIM-XPT program, you must contact the creators of the program, Mark H. Reed, Nicolas F. Spycher, or James Palandri from the University of Oregon. 
 
