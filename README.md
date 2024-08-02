@@ -48,6 +48,16 @@ __Run__: Runs all RUN files and saves OUT, PLOT, RUN-pre, RUN-post, and terminal
 
 __Previous Run__: Changes all current RUN files to the way they were right before last Run. Locks Auto increase by 10 and Previous Run buttons until program is Run again.
 
+## Graphing and CSV Creation
+__Browse__: Hitting this button will bring up a file select screen where you can select a folder that cotains CHIMOUT.DAT and CHIMTERMINAL.DAT files that you want to compile into a CSV. Multiple folders can be selected
+
+__Create CSV with Selected Folders__: Creates two CSV files with all CHIMOUT and CHIMTERMINAL files in all selected folders, one for the weight percentages and one for the Aq. Moles
+
+__Load CSV Files__: Loads the selected CSV file to be the on that is being graphed
+
+__Two Drop Down Menus__: These are for selecting which column should be the x and y axis, first one is x and second one is y
+
+__Plot Graph__: This plots a graph with all selected options above
 
 ## Other Important Information
 The two files (run_chimxpt.py and run_gui.py) must be located in the same folder that contains the rest of the CHIM-XPT files such as CHIMRUN.DAT and chim-xpt.exe.
