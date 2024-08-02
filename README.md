@@ -14,9 +14,13 @@ Clone the repository, the program consists of two main files, run_chimxpt.py and
 
 Run in the command line to start the program
 
-```python3 run_gui.py```
+```python3 chimxpt_gui.py```
 
 In order to access the CHIM-XPT program, you must contact the creators of the program, Mark H. Reed, Nicolas F. Spycher, or James Palandri from the University of Oregon. 
+
+Run in order to run the graphing program
+
+```python3 graph_gui.py```
 
 The only libraries required are installed with the default python package, so no extra installation is required. It is important to note that this program will only run on Windows and Linux, and if is being run on Linux then the extra step of installing "Wine" must be used. That can be done by first running `sudo apt update` and then `sudo apt install wine64` or `sudo apt install wine32` depending on system version. 
 ## GUI Interface
@@ -60,9 +64,10 @@ __Two Drop Down Menus__: These are for selecting which column should be the x an
 __Plot Graph__: This plots a graph with all selected options above
 
 ## Other Important Information
-The two files (run_chimxpt.py and run_gui.py) must be located in the same folder that contains the rest of the CHIM-XPT files such as CHIMRUN.DAT and chim-xpt.exe.
+All four .py files must be located in the same folder that contains the rest of the CHIM-XPT files such as CHIMRUN.DAT and chim-xpt.exe in order to run properly
 
 The original output of the CHIM-XPT program will still be printed to the terminal. If there are multiple CHIMRUN files and runs, the terminal may become cluttered.
+
 ## Future Steps
 - Compiling CHIMOUT.DAT files into CSVs for ease of use.
 - Add a plottting GUI that allows for custom plotting and takes CSVs.
