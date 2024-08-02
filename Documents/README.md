@@ -19,4 +19,4 @@ pdflatex chim-xpt_presentation.tex
 ```
 ## Opening Document and Side Project
 
-Download the NikaanshSingh_Side_Project_Electronics.odp and NikaanshSingh_Enhancing_CHIM-XPT_Paper.odt and open them in LibreOffice
+Download the Side_Project_Electronics.odp and Enhancing_CHIM-XPT_Paper.odt and open them in LibreOffice
