@@ -22,7 +22,18 @@ Run in order to run the graphing program
 
 ```python3 graph_gui.py```
 
-The only libraries required are installed with the default python package, so no extra installation is required. It is important to note that this program will only run on Windows and Linux, and if is being run on Linux then the extra step of installing "Wine" must be used. That can be done by first running `sudo apt update` and then `sudo apt install wine64` or `sudo apt install wine32` depending on system version. 
+The only libraries required are installed with the default python package except for matplotlib and pandas. These can be installed by running:
+
+```pip install matplotlib```
+
+```pip install pandas```
+
+It is important to note that this program will only run on Windows and Linux, and if is being run on Linux then the extra step of installing "Wine" must be used. That can be done by first running 
+
+```sudo apt update```
+
+```sudo apt install wine64```
+
 ## GUI Interface
 
 ### Folder Creation and Start
